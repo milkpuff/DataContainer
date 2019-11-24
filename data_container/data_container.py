@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from importlib import reload
+from importlib import reload  # python3 reload在模块importlib或imp中
 from multiprocessing import Process
 
 
