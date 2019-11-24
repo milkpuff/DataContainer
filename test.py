@@ -14,9 +14,9 @@ import main_test
 
 
 def main():
-    data = np.random.randn(100, 100)
+    data = np.random.randn(100, 100)  # 假设这是从硬盘读到内存的数据
     print(data)
-    DataContainer(data, main_test).run()
+    DataContainer(data, main_test).run()  # 这里会重复调用data而不用重新从硬盘读取
 
 
 if __name__ == '__main__':
